@@ -44,7 +44,7 @@ if len(uploaded_file) >= 0:
         st.markdown('<div style="text-align: center;"><img src="https://i.postimg.cc/gJzPdRYd/logio.png" alt="Alt Text" width="310"></div>', unsafe_allow_html=True)
         #st.header('Centre for Teaching and Learning')
         st.markdown('<h3 style="color:maroon;text-align: center">Centre for Teaching and Learning</h3>', unsafe_allow_html=True)       
-        st.write(' ')
+        #st.write(' ')
         st.info(' ')
     with c2:
         st.markdown('<h1 style="color:midnightblue;text-align: center">A_STEP: Oracle v.1.0.0</h1>', unsafe_allow_html=True)
