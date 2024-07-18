@@ -41,7 +41,7 @@ c1, c2 = st.columns([50, 50])
 
 if len(uploaded_file) >= 0:
     with c1:
-        st.markdown('<div style="text-align: center;"><img src="https://i.postimg.cc/gJzPdRYd/logio.png" alt="Alt Text" width="300"></div>', unsafe_allow_html=True)
+        st.markdown('<div style="text-align: center;"><img src="https://i.postimg.cc/gJzPdRYd/logio.png" alt="Alt Text" width="310"></div>', unsafe_allow_html=True)
         #st.header('Centre for Teaching and Learning')
         st.markdown('<h3 style="color:maroon;text-align: center">Centre for Teaching and Learning</h3>', unsafe_allow_html=True)       
         st.write(' ')
