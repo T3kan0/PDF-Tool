@@ -55,7 +55,7 @@ if len(uploaded_file) >= 0:
         captions = ["Default: Stacking Files Atop One Another 📕📗📘➡️📚",
                 "Separates Files: From One Document to Many 📚➡️📕📗📘"]
         )
-        st.write(' ')
+        #st.write(' ')
         st.markdown('---')
 
 # Set a fixed height for the iframes
