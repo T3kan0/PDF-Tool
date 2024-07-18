@@ -76,7 +76,6 @@ if st.session_state['uploaded_file'] is not None:
                 if len(uploaded_file) == 0:
                         st.warning('Upload PDF to continue!', icon="⚠️")
         
-        st.markdown('---')
         # Limit to the first two files
         for i, pdf_file in enumerate(st.session_state['uploaded_file'][:2]):
             binary_data = pdf_file.getvalue()
@@ -89,7 +88,7 @@ if st.session_state['uploaded_file'] is not None:
             elif i == 1:
                 with c2:
                     pdf_viewer(input=binary_data, width=700, height = iframe_height)
-
+        st.markdown('---')
         if aggreg:
             if len(uploaded_file) >= 1:                
                 merger = PdfWriter()
