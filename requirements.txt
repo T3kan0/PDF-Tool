@@ -1,0 +1,8 @@
+PIL
+PyPDF2
+pdf2image
+streamlit_pdf_viewer
+base64
+io
+zipfile
+math
