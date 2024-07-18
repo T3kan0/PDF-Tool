@@ -44,7 +44,7 @@ if len(uploaded_file) >= 0:
         st.markdown('<div style="text-align: center;"><img src="https://i.postimg.cc/gJzPdRYd/logio.png" alt="Alt Text" width="300"></div>', unsafe_allow_html=True)
         #st.header('Centre for Teaching and Learning')
         st.markdown('<h3 style="color:maroon;text-align: center">Centre for Teaching and Learning</h3>', unsafe_allow_html=True)       
-        #st.markdown('---')
+        st.write(' ')
         st.info(' ')
     with c2:
         st.markdown('<h1 style="color:midnightblue;text-align: center">A_STEP: Oracle v.1.0.0</h1>', unsafe_allow_html=True)
@@ -55,7 +55,7 @@ if len(uploaded_file) >= 0:
         captions = ["Default: Stacking Files Atop One Another 📕📗📘➡️📚",
                 "Separates Files: From One Document to Many 📚➡️📕📗📘"]
         )
-        #st.write(' ')
+
         st.markdown('---')
 
 # Set a fixed height for the iframes
@@ -88,7 +88,7 @@ if st.session_state['uploaded_file'] is not None:
             elif i == 1:
                 with c2:
                     pdf_viewer(input=binary_data, width=700, height = iframe_height)
-        st.markdown('---')
+        #st.markdown('---')
         if aggreg:
             if len(uploaded_file) >= 1:                
                 merger = PdfWriter()
