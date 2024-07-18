@@ -5,7 +5,6 @@
 import streamlit as st
 import pandas as pd
 import time
-from PIL import Image
 from PyPDF2 import PdfReader
 from pdf2image import convert_from_bytes
 import pypdf
