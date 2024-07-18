@@ -55,11 +55,11 @@ if len(uploaded_file) >= 0:
         captions = ["Default: Stacking Files Atop One Another 📕📗📘➡️📚",
                 "Separates Files: From One Document to Many 📚➡️📕📗📘"]
         )
-        st.markdown('---')
+        #st.markdown('---')
 
 # Set a fixed height for the iframes
 iframe_height = 600
-
+st.markdown('---')
 if st.session_state['uploaded_file'] is not None:
     if genre == ":rainbow[**Combine PDF**]":
 
