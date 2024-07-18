@@ -7,7 +7,7 @@ import pandas as pd
 import time
 from PyPDF2 import PdfReader
 from pdf2image import convert_from_bytes
-import pypdf
+#import pypdf
 from streamlit_pdf_viewer import pdf_viewer
 import base64
 from PyPDF2 import PdfWriter
