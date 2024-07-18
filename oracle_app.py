@@ -148,7 +148,7 @@ if st.session_state['uploaded_file'] is not None:
                 pdf_viewer(input=binary_data, width=700, height = iframe_height)
             with c2:
                 st.markdown("<h2 style='color:midnightblue;text-align: Center;'>PDF Intel</h2>", unsafe_allow_html=True)
-                st.markdown('---')
+                st.info(' ')
                 st.write(f":blue[Title:] {title}")
                 st.write(f":blue[Author:] {author}")
                 st.write(f":blue[Number of pages in the PDF file:] {num_pages}")
