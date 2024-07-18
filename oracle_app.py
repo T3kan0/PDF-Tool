@@ -48,7 +48,8 @@ if len(uploaded_file) >= 0:
         st.info(' ')
     with c2:
         st.markdown('<h1 style="color:midnightblue;text-align: center">A_STEP: Oracle v.1.0.0</h1>', unsafe_allow_html=True)
-        st.markdown('---')
+        #st.markdown('---')
+        st.info(' ')
         genre = st.radio(
         ":red[**How Can Oracle Help You with Your Files?**]💡",
         [":rainbow[**Combine PDF**]", ":rainbow[**Split/Separate PDF**]"],
